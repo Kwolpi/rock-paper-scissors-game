@@ -41,6 +41,7 @@ else {
     alert('You lose!');
     loseNumber = ++loseNumber;
 }
+//Scoreboard
 alert(`You won ${scoreUser}, you lose ${loseNumber} and you had ${tieNumber} draws`);
 }
 
@@ -53,7 +54,7 @@ function game() {
 }
 game()
 
-//Scoreboard
+//Final result
 if (scoreUser > loseNumber) {
     alert('You win the game!');
 }
